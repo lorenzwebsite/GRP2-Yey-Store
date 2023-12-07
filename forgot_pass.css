@@ -1,0 +1,129 @@
+* {
+    font-family: "Poppins";
+  }
+  
+  body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dde5f4;
+    height: 100vh;
+    background-image: url(/logo/yeybg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(88, 84, 77);
+  }
+  
+  .forgot-password-screen {
+    background: #fcfeff;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em rgb(16, 3, 10);
+    gap: 2em;
+    padding-bottom: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .forgot-password-screen h2 {
+    color: #4d4d4d;
+  }
+  
+  .forgot-password-screen p {
+    color: #5e5e5e;
+  }
+  
+  .forgot-password-screen .email {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+  }
+  
+  .forgot-password-screen .email input {
+    outline: none;
+    border: none;
+  }
+  
+  .forgot-password-screen .email input::-moz-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  
+  .forgot-password-screen .email input:-ms-input-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  
+  .forgot-password-screen .email input::placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  
+  .forgot-password-screen .email ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+  }
+  
+  .forgot-password-screen button{
+    width: 300px;
+    font-size: 16px;
+    font-weight: 900;
+    align-content: center;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 30px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .forgot-password-screen button:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .forgot-password-screen button:focus {
+    outline: none;
+  }
+  
+  .forgot-password-screen button{
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #4481eb,
+      #04befe,
+      #3f86ed
+    );
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  }
+  
+  .forgot-password-screen a {
+    color: #5e5e5e;
+  }
+  
+  .forgot-password-screen a:hover {
+    text-decoration: underline;
+  }
+  
